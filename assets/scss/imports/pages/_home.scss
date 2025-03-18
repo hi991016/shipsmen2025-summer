@@ -480,8 +480,9 @@
         right: 42px;
 
         &.casual {
-          top: 215px;
-          transform: none;
+          top: calc(50% + 13px);
+          right: 16px;
+          transform: translateY(-50%);
         }
 
         h2 {
